@@ -1,0 +1,825 @@
+.firstHeader{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+.firstList{
+    display: flex;
+    gap: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(28, 41, 77, 0.8);
+}
+.secondList{
+    display: flex;
+    gap: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(28, 41, 77, 0.8);
+}
+.infoIcon{
+    color: green;
+    margin-left: -10px;
+}
+.submitButton{
+    width: 123px;
+    height: 44px;
+    background: #FF7A00;
+    color: white;
+    margin-left: -5px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+.search{
+    background: #FFFFFF;
+    border: 1px solid #DFE0E1;
+    border-radius: 5px 0 0 5px;
+    width: 420px;
+    height: 40px;
+}
+.searchBar{
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+}
+.secondHeader{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.catalog{
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    margin: 0 auto;
+    z-index: 1;
+    display: none;
+}
+.catalogLists{
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+    padding-left: 7%;
+}
+.catalogList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;    
+    color: #1C294D;
+    
+}
+.searchAndList{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+}
+.mobileHeader{
+    display: none;
+}
+.userList{
+    display: flex;
+    gap: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1C294D;
+}
+.anotherList{
+    display: flex;
+    gap: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C294D;
+    font-family: 'Roboto';
+}
+.discountTag{
+    color: #FF283D;
+}
+body{
+    margin: 0px;
+}
+main{
+    background: #E5E5E5;
+}
+.someImages{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.sliderButtons{
+    border-radius: 5px; 
+    border: 1px solid rgba(28, 41, 77, 0.15); 
+    color: rgba(42, 61, 72, 0.5); 
+    width: 28px;
+    outline: none;
+    height: 28px;
+}
+.newBooksTitle .second{
+    border-radius: 0 5px 5px 0;
+    
+}
+.newBooksTitle .first{
+    border-radius: 5px 0 0 5px;
+    margin-right: -5px;
+}
+.someImagesSmall{
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+.twoEqualThree{
+    background-image: url("img/2=3.png");
+    max-width: 750px;
+    max-height: 350px;
+}
+.someImagesSmallMobile{
+    display: none;
+}
+.mobilePrefooter{
+    display: none;
+    width: 375px;
+    margin: 0 auto;
+}
+.someImagesBig{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.bookOfTheDay{
+    max-width: 360px;
+    max-height: 520px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.bookOfTheDayText{
+    color: #1C294D;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.bookOfTheDayTime{
+    background: rgba(255, 122, 0, 0.15);
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    width: 68px;
+    vertical-align: middle;
+    height: 25px;
+    text-align: center;
+    color: #FF7A00;
+}
+.aboutBookText{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.aboutBookImage{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.cartButton{
+    background: #FFFFFF;
+    width: 146px;
+    height: 40px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+}
+.favButton{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+}
+.aboutBookMisc{
+    margin-left: 10px;
+}
+.up{
+    padding-bottom: 10px;
+}
+.miscOne{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 5px;
+    color: rgba(28, 41, 77, 0.5);
+}
+.miscPrice{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 5px;
+    color: #1C294D;
+
+}
+.fa-cart-shopping{
+    color: #FF7A00;
+}
+.newBooks{
+    max-width: 1300px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.newBooksTitle{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.newBooksBlock{
+    width: 325px;
+    height: 470px;
+    border-right: 1px solid #1c294d44;
+    border-bottom: 1px solid #1c294d44;
+}
+.newBooksBlock:last-child{
+    border-right: 0px;
+}
+.newBooksBlocks{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #1c294d44;
+}
+.newBlockSeller{
+    border-radius: 5px;
+    width: 66px;
+    height: 15px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    position: relative;
+    line-height: 15px;
+}
+.newBlockAction{
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    position: relative;
+    font-weight: 700;
+    font-size: 12px;
+    width: 34px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+}
+.textPositioning{
+    bottom: 215px;
+    left: 20%;
+    position: relative;
+}
+.blockImage{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.newBooksBlock .aboutBookMisc{
+    margin-top: -40px;
+}
+.rating{
+    background-color: #fbc12d28;
+    color: #FBC02D;
+    max-width: 52px;
+    height: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    padding-right: 5px;
+    line-height: 24px;
+    border-radius: 5px;
+}
+.ratingAndLike{
+    display: flex;
+    margin-top: -15px;
+}
+.like{
+    background-color: #7987cb42;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    width: 144px;
+    height: 25px;
+    color: #7986CB;
+    margin-left: 15px;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.allBooksButton{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C294D;
+    border: none;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.newsText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    padding-left: 30px;
+    color: #FFFFFF;
+}
+.newsInput{
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 418px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.specialsBlock{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 150px;
+    border-radius: 5px;
+    width: 300px;
+}
+.AdImage{
+    width: 355px;
+    height: 140px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+.AdImageFirst{
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 180px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.AdImageSecond{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    width: 180px;
+    line-height: 25px;
+    color: rgba(28, 41, 77, 0.8);
+}
+.AdImage:first-child{
+    background-color:#6D378F;
+}
+.AdImage:nth-child(2){
+    background-color: #FFD8EF;;
+}
+.specialsImage{
+    width: 122px;
+    height: 75px;
+}
+.specialsTitle{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C294D;
+}
+.specialsDesc{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    width: 153px;
+    line-height: 19px;
+    color: #727272;
+}
+.newsButton{
+    background: #0288D1;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 137px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+.newsSubscribe{
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #0288D1;
+    border-radius: 5px;
+    height: 80px;
+    display: flex;
+    justify-content: ;
+    gap: 30px;
+    align-items: center;
+    margin-top: 30px;
+}
+.specials{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin:
+}
+.news{
+    width: 1300px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.newsBlocks{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #1c294d44;
+}
+.newsBlock{
+    border-right: 1px solid #1c294d44;
+    width: 433px;
+    height: 450px;
+}
+.newsMisc{
+    margin-left: 50px;
+}
+.newsDate{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(28, 41, 77, 0.5);
+}
+.newsTitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    width: 320px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1C294D;
+}
+.newsDesc{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 320px;
+    line-height: 20px;
+    color: #1C294D;
+    opacity: 0.8;
+}
+.mobilePrefooter{
+    height: 150px;
+    display: none;
+}
+.mobileFooter{
+    display: none;
+}
+.newsButton{
+    background: #FFFFFF;
+    border: 1px solid rgba(28, 41, 77, 0.15);
+    border-radius: 5px;
+    color: #1C294D;
+}
+.makeCenter{
+    display: flex;
+    justify-content: center;
+}
+.mobileFooterFirst{
+    display: flex;
+    justify-content: space-between;
+}
+.mobileFooterFirstImage{
+    width: 11px;
+    height: 7px;
+    margin-top: 23px;
+}
+.someTextFirst{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(28, 41, 77, 0.5);
+}
+.someTextSecond{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    color: #1C294D;
+}
+.someText{
+    width: 335px; 
+    margin: 0 auto;
+}
+.desktopPrefooter{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    height: 60px;
+}
+.desktopFooter{
+    width: 1300px;
+    margin: 0 auto;
+}
+.footerLists{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-left: -35px;
+    padding-top: 20px;
+}
+.footerList{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(40, 47, 54, 0.8);
+}
+.footerList:first-child{
+    color: #1C294D;
+    font-weight: 500;
+}
+.catalogButton{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1C294D;
+    font-family: 'Roboto';
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.lastList{
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    flex-direction: row;
+    line-height: 20px;
+    text-align: right;
+    gap: 30px;
+    color: rgba(28, 41, 77, 0.8);
+}
+.watermark{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(28, 41, 77, 0.5);
+}
+.newsBlocks .four{
+    border-right: none;
+}
+.firstArrow, .secondArrow{
+    position: relative;
+}
+.firstArrow{
+    top: 170px;
+    z-index: 1;
+    left: 10px;
+}
+.secondArrow{
+    left: 710px;
+    bottom: 210px;
+}
+@media (max-width: 768px){
+    body{
+        margin: 0 auto;
+        min-width: 375px;
+    }
+    .firstArrow{
+        top: 0px;
+        left: 0px;
+    }
+    .secondArrow{
+        bottom: 0px;
+        left: 0px;
+    }
+    .twoEqualThree  .sliderButtons{
+        visibility: hidden;
+    }
+    .firstHeader,.secondHeader, .someImagesSmall, .someImagesSliderButtons, .desktopFooter, .desktopPrefooter{
+        display: none;
+    }
+    .someImages{
+        max-width: 355px;
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+    }
+    .newBooksBlock:nth-child(2){
+        border-right: none;
+    }
+    .news{
+        margin-right: 2%;
+    }
+    .twoEqualThree{
+        background-size: 355px 175px;
+    }
+    .newsSubscribe{
+        flex-direction: column;
+        max-width: 355px;
+        max-height: 190px;
+        display: none;
+    }
+    .newsSubscribe{
+        width: 355px;
+        height: 190px;
+        gap: 10px;
+    }
+    .newsText{
+        padding-left: 10px;
+    }
+    .newsInput{
+        width: 335px;
+    }
+    .newsButton{
+        width: 335px;
+    }
+    .bookOfTheDay{
+        height: 550px;
+    }
+    .someImagesSmallMobile{
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+    }
+    .bigImage{
+        max-width: 355px;
+        max-height: 175px;
+    }
+    .newsBlock{
+        width: auto;
+    }
+    .newsBlocks{
+    }
+    .third, .four{
+        display: none;
+    }
+    .mobileHeader{
+        display: flex;
+        gap: 20px;
+        width: 355px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .mobileSearch{
+        background: #F7F7F7;
+        border-radius: 5px;
+        color: rgba(28, 41, 77, 0.5);
+        width: 195px;
+        height: 40px;
+        outline: none;
+        border: none;
+    }
+    .newBooksBlock{
+    }
+    .ratingAndLike{
+        
+    }
+    .mobilePrefooter{
+        display: block;
+    }
+    .mobileFooter{
+        display: block;
+    }
+    .like{
+        padding: 0px;
+        margin: 0px;
+    }
+    .mobileSearchButton{
+        border: none;
+        width: 18px;
+        height: 18px;
+        background: #F7F7F7;
+        position: relative;
+        right: 15%;
+        top: 0px;
+        color: rgba(28, 41, 77, 0.5);
+    }
+    .newBooks{
+        max-width: 355px;
+    }
+    .bookOfTheDay{
+        height: 490px;
+    }
+    .aboutBookMisc{
+        margin-left: 10px;
+    }
+    .cartButtonMobile{
+        border: none;
+        outline: none;
+        background-color: white;
+    }
+    .news{
+        width: 355px;
+        margin-left: 10px;
+    }
+    .newsMisc{
+        margin-left: 20px;
+    }
+    .newsBlock{
+        border: none;
+    }
+    .specials{
+        max-width: 375px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .specialsBlock{
+        width: 355px;
+        max-height: 170px;
+        margin: 0 auto;
+    }
+    .favAndCart{
+    }
+    .newBooksBlock{
+        max-width: 177px;
+        height: 510px;
+    }
+    .specialsImage{
+        width: 147px;
+        height: 90px;
+    }
+    .newsButton{
+        margin-left: -10px;
+    }
+    .favAndCart{
+        padding-top: 10px;
+    }
+    .cartButton{
+        width: 117px;
+    }
+    .ratingAndLike{
+        flex-direction: column;
+    }
+    .mobileDayButton{
+        width: 250px;
+    }
+    .searchBar{
+        margin-left: 0px;
+    }
+    .search{
+        width: 270px;
+    }
+    .submitButton{
+        width: 50px;
+        position: relative;
+        right: 5%;
+    }
+
+}
